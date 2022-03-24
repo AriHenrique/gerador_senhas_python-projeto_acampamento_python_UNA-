@@ -11,6 +11,15 @@ print("2 para senha aleatória")
 option = int(input("Opção: "))
 senha = []
 
+'''----------------------------------
+poderia ter usado a biblioteca abaixo, porém o professor pediu da maneira que
+enviou no exercício
+
+letras = list(string.ascii_letters)
+numeros = list(string.digits)
+simbolos = list(string.punctuation)
+-------------------------------------'''
+
 letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
           'o', 'p', 'q' ,'r', 's', 't', 'u', 'v', 'w', 'x' ,'y', 'z', 'A', 'B',
           'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
